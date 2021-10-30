@@ -1,0 +1,6 @@
+[2021-10-30 12:04:30.888] [exthost] [info] extension host started
+[2021-10-30 12:04:30.888] [exthost] [info] Skipping acquiring lock for /home/wyli/.config/Code/User/workspaceStorage/3214a66d82b3faa14d23a0e7216e3f5f.
+[2021-10-30 12:04:30.913] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+[2021-10-30 12:04:30.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wyli/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.8/out/extension
+[2021-10-30 12:04:33.549] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-30 12:04:34.553] [exthost] [info] exiting with code 0

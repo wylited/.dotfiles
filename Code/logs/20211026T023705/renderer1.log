@@ -1,0 +1,10 @@
+[2021-10-26 02:37:07.015] [renderer1] [info] Starting extension host with pid 5645.
+[2021-10-26 02:37:07.733] [renderer1] [error] [Extension Host] (node:5645) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 02:38:27.192] [renderer1] [info] Starting extension host with pid 6341.
+[2021-10-26 02:38:27.841] [renderer1] [error] [Extension Host] (node:6341) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 02:50:10.069] [renderer1] [info] Starting extension host with pid 7938.
+[2021-10-26 02:50:10.561] [renderer1] [error] [Extension Host] (node:7938) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 03:21:09.539] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/etc/sysctl.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/sysctl.conf') file:///etc/sysctl.conf

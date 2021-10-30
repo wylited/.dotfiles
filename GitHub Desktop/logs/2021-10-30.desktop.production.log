@@ -1,0 +1,11 @@
+2021-10-30T12:57:30.059Z - info: [ui] [AppStore] loading 2 repositories from store
+2021-10-30T12:57:30.061Z - info: [ui] [AppStore] found account: wylited (wylited)
+2021-10-30T12:57:30.261Z - info: [ui] launching: 2.8.1-linux1 (Linux 5.13.0-7620-generic)
+2021-10-30T12:57:30.262Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2021-10-30T12:57:31.658Z - info: [ui] Stats reported.
+2021-10-30T12:58:07.650Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2021-10-30T12:58:27.585Z - info: [ui] [AppStore] adding repository at /home/wyli/.config/.dotfiles to store
+2021-10-30T12:58:38.181Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 10.367s)
+2021-10-30T12:58:53.313Z - info: [ui] Executing createCommit: git commit -F - (took 15.116s)
+2021-10-30T12:59:46.287Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main --set-upstream --progress (took 41.274s)
+2021-10-30T12:59:48.181Z - info: [ui] [BranchPruner] No branches to prune.

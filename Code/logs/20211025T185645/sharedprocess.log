@@ -1,0 +1,80 @@
+[2021-10-25 18:56:57.078] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-25 18:56:57.082] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211022T190419'
+[2021-10-25 18:57:07.326] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2021-10-25 18:57:10.694] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2021-10-25 18:57:10.694] [sharedprocess] [info] Installing extension: redhat.java
+[2021-10-25 18:57:10.694] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2021-10-25 18:57:10.695] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2021-10-25 18:57:10.695] [sharedprocess] [info] Installing extension: vscjava.vscode-java-test
+[2021-10-25 18:57:10.695] [sharedprocess] [info] Installing extension: vscjava.vscode-java-dependency
+[2021-10-25 18:57:12.158] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-dependency /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-dependency-0.18.8
+[2021-10-25 18:57:12.233] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.579b6f60-7700-4abe-8e7e-7d99532a4273: vscjava.vscode-java-dependency
+[2021-10-25 18:57:12.240] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-java-dependency-0.18.8
+[2021-10-25 18:57:12.242] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-dependency
+[2021-10-25 18:57:15.670] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-debug-0.36.0
+[2021-10-25 18:57:15.764] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.a7239006-be0d-4fcb-a5fe-ad4a85905428: vscjava.vscode-java-debug
+[2021-10-25 18:57:15.773] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-java-debug-0.36.0
+[2021-10-25 18:57:15.775] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-debug
+[2021-10-25 18:57:17.068] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-25 18:57:17.069] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-25 18:57:24.906] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-maven-0.34.0
+[2021-10-25 18:57:25.344] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.694b984f-46bd-41f7-a7e7-5a6f6d0a7582: vscjava.vscode-maven
+[2021-10-25 18:57:25.351] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-maven-0.34.0
+[2021-10-25 18:57:25.355] [sharedprocess] [info] Extracting completed. vscjava.vscode-maven
+[2021-10-25 18:57:26.385] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /home/wyli/.config/Code/CachedExtensionVSIXs/visualstudioexptteam.vscodeintellicode-1.2.14
+[2021-10-25 18:57:26.984] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.fafb1a2c-30fe-4494-ba30-5e9dce464657: visualstudioexptteam.vscodeintellicode
+[2021-10-25 18:57:26.996] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14
+[2021-10-25 18:57:27.002] [sharedprocess] [info] Extracting completed. visualstudioexptteam.vscodeintellicode
+[2021-10-25 18:57:27.070] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-25 18:57:39.705] [sharedprocess] [info] Downloaded extension: redhat.java /home/wyli/.config/Code/CachedExtensionVSIXs/redhat.java-1.0.0
+[2021-10-25 18:57:40.701] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.f8eb3888-c48a-4d47-b060-01e796824e32: redhat.java
+[2021-10-25 18:57:40.713] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/redhat.java-1.0.0
+[2021-10-25 18:57:40.715] [sharedprocess] [info] Extracting completed. redhat.java
+[2021-10-25 18:57:43.055] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-test /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-test-0.32.0
+[2021-10-25 18:57:43.112] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.7339deff-f58f-4105-b235-18dc10d39c58: vscjava.vscode-java-test
+[2021-10-25 18:57:43.118] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-java-test-0.32.0
+[2021-10-25 18:57:43.119] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-test
+[2021-10-25 18:57:45.958] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-java-pack-0.18.6
+[2021-10-25 18:57:46.053] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.a14c6cd9-238c-4b49-9d60-539b1b0c587b: vscjava.vscode-java-pack
+[2021-10-25 18:57:46.058] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-java-pack-0.18.6
+[2021-10-25 18:57:46.059] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-pack
+[2021-10-25 18:57:46.062] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-dependency
+[2021-10-25 18:57:46.063] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-debug
+[2021-10-25 18:57:46.063] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-maven
+[2021-10-25 18:57:46.063] [sharedprocess] [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+[2021-10-25 18:57:46.063] [sharedprocess] [info] Extension installed successfully: redhat.java
+[2021-10-25 18:57:46.064] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-test
+[2021-10-25 18:57:46.064] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-pack
+[2021-10-25 19:01:12.785] [sharedprocess] [info] Installing extension: icrawl.discord-vscode
+[2021-10-25 19:01:14.520] [sharedprocess] [info] Downloaded extension: icrawl.discord-vscode /home/wyli/.config/Code/CachedExtensionVSIXs/icrawl.discord-vscode-5.7.0
+[2021-10-25 19:01:14.547] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.2e64769f-732b-44e4-98fa-e93f14e6522d: icrawl.discord-vscode
+[2021-10-25 19:01:14.551] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/icrawl.discord-vscode-5.7.0
+[2021-10-25 19:01:14.552] [sharedprocess] [info] Extracting completed. icrawl.discord-vscode
+[2021-10-25 19:01:14.554] [sharedprocess] [info] Extension installed successfully: icrawl.discord-vscode
+[2021-10-25 19:01:29.438] [sharedprocess] [info] Installing extension: fwcd.kotlin
+[2021-10-25 19:01:31.302] [sharedprocess] [info] Downloaded extension: fwcd.kotlin /home/wyli/.config/Code/CachedExtensionVSIXs/fwcd.kotlin-0.2.23
+[2021-10-25 19:01:31.393] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.b23aa224-a549-4d8b-85d4-e018a5c957ac: fwcd.kotlin
+[2021-10-25 19:01:31.401] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/fwcd.kotlin-0.2.23
+[2021-10-25 19:01:31.403] [sharedprocess] [info] Extracting completed. fwcd.kotlin
+[2021-10-25 19:01:31.404] [sharedprocess] [info] Extension installed successfully: fwcd.kotlin
+[2021-10-25 19:01:36.565] [sharedprocess] [info] Installing extension: naco-siren.gradle-language
+[2021-10-25 19:01:37.697] [sharedprocess] [info] Installing extension: vscjava.vscode-gradle
+[2021-10-25 19:01:39.686] [sharedprocess] [info] Installing extension: richardwillis.vscode-gradle-extension-pack
+[2021-10-25 19:01:40.484] [sharedprocess] [info] Extension is already requested to install naco-siren.gradle-language
+[2021-10-25 19:01:40.484] [sharedprocess] [info] Extension is already requested to install vscjava.vscode-gradle
+[2021-10-25 19:01:42.169] [sharedprocess] [info] Downloaded extension: naco-siren.gradle-language /home/wyli/.config/Code/CachedExtensionVSIXs/naco-siren.gradle-language-0.2.3
+[2021-10-25 19:01:42.529] [sharedprocess] [info] Downloaded extension: richardwillis.vscode-gradle-extension-pack /home/wyli/.config/Code/CachedExtensionVSIXs/richardwillis.vscode-gradle-extension-pack-0.0.4
+[2021-10-25 19:01:42.540] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.857f41b1-f465-4108-8580-13318bfc920d: richardwillis.vscode-gradle-extension-pack
+[2021-10-25 19:01:42.544] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/richardwillis.vscode-gradle-extension-pack-0.0.4
+[2021-10-25 19:01:42.545] [sharedprocess] [info] Extracting completed. richardwillis.vscode-gradle-extension-pack
+[2021-10-25 19:01:42.546] [sharedprocess] [info] Extension installed successfully: richardwillis.vscode-gradle-extension-pack
+[2021-10-25 19:01:45.300] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.431557f3-7027-462f-8b58-a35355bf4349: naco-siren.gradle-language
+[2021-10-25 19:01:45.305] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/naco-siren.gradle-language-0.2.3
+[2021-10-25 19:01:45.306] [sharedprocess] [info] Extracting completed. naco-siren.gradle-language
+[2021-10-25 19:01:45.307] [sharedprocess] [info] Extension installed successfully: naco-siren.gradle-language
+[2021-10-25 19:01:54.485] [sharedprocess] [info] Downloaded extension: vscjava.vscode-gradle /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-gradle-3.8.0
+[2021-10-25 19:01:55.097] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.0dbfb97d-efcd-4d00-ac00-bc02299752b9: vscjava.vscode-gradle
+[2021-10-25 19:01:55.110] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-gradle-3.8.0
+[2021-10-25 19:01:55.112] [sharedprocess] [info] Extracting completed. vscjava.vscode-gradle
+[2021-10-25 19:01:55.113] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-gradle
+[2021-10-25 23:03:31.507] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

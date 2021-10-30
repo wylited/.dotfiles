@@ -1,0 +1,30 @@
+[2021-10-28 22:04:52.558] [sharedprocess] [info] Installing extension: vscjava.vscode-gradle
+[2021-10-28 22:04:52.561] [sharedprocess] [info] Installing extension: github.copilot
+[2021-10-28 22:04:54.644] [sharedprocess] [info] Downloaded extension: github.copilot /home/wyli/.config/Code/CachedExtensionVSIXs/github.copilot-1.6.3503
+[2021-10-28 22:04:54.732] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.c37f39e9-658c-40e4-86cc-1b10404b0487: github.copilot
+[2021-10-28 22:04:54.739] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/github.copilot-1.6.3503
+[2021-10-28 22:04:54.741] [sharedprocess] [info] Extracting completed. github.copilot
+[2021-10-28 22:04:54.745] [sharedprocess] [info] Extension installed successfully: github.copilot
+[2021-10-28 22:04:57.910] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-28 22:04:57.911] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211024T221130'
+[2021-10-28 22:05:10.620] [sharedprocess] [info] Downloaded extension: vscjava.vscode-gradle /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-gradle-3.8.1
+[2021-10-28 22:05:11.159] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.7e0bd8a7-ce7e-400f-85ac-a19661b11855: vscjava.vscode-gradle
+[2021-10-28 22:05:11.166] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-gradle-3.8.1
+[2021-10-28 22:05:11.167] [sharedprocess] [info] Extracting completed. vscjava.vscode-gradle
+[2021-10-28 22:05:11.176] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-gradle
+[2021-10-28 22:05:12.967] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2021-10-28 22:05:14.374] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2021-10-28 22:05:16.729] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit /home/wyli/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-edit-0.65.8
+[2021-10-28 22:05:16.753] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.557f7633-212a-4a21-a080-8047b2786022: ms-vscode-remote.remote-ssh-edit
+[2021-10-28 22:05:16.758] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.8
+[2021-10-28 22:05:16.760] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh-edit
+[2021-10-28 22:05:17.908] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-28 22:05:17.908] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-28 22:05:18.508] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh /home/wyli/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.65.8
+[2021-10-28 22:05:18.613] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.fca261a6-9954-4ce3-8268-2f61533634e5: ms-vscode-remote.remote-ssh
+[2021-10-28 22:05:18.623] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.8
+[2021-10-28 22:05:18.624] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-ssh
+[2021-10-28 22:05:18.626] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit
+[2021-10-28 22:05:18.627] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+[2021-10-28 22:05:27.907] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-28 22:46:40.153] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

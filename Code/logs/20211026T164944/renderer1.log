@@ -1,0 +1,7 @@
+[2021-10-26 16:49:46.383] [renderer1] [info] Starting extension host with pid 13197.
+[2021-10-26 16:49:46.959] [renderer1] [error] [Extension Host] (node:13197) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 16:50:12.085] [renderer1] [info] Starting extension host with pid 13301.
+[2021-10-26 16:50:12.440] [renderer1] [error] [Extension Host] (node:13301) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 16:51:02.117] [renderer1] [error] [text file model] handleSaveError(82) - exit - resulted in a save error: Error: Unable to write file '/etc/regolith/i3/config' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/regolith/i3/config') file:///etc/regolith/i3/config

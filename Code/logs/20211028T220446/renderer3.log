@@ -1,0 +1,35 @@
+[2021-10-28 22:06:09.110] [renderer3] [info] Starting extension host with pid 8649.
+[2021-10-28 22:06:09.570] [renderer3] [error] [Extension Host] (node:8649) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-28 22:06:10.422] [renderer3] [error] [remote-connection] An error occurred in the very first connect attempt, it will be treated as a permanent error! Error:
+[2021-10-28 22:06:10.424] [renderer3] [error] Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:10.440] [renderer3] [error] Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:10.478] [renderer3] [error] Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:10.845] [renderer3] [error] An unknown error occurred. Please consult the log for more details.: Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:13.751] [renderer3] [error] An unknown error occurred. Please consult the log for more details.: Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:15.749] [renderer3] [error] An unknown error occurred. Please consult the log for more details.: Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._scanAndHandleExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:8588)
+    at async Gl._initialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2942:28373)
+[2021-10-28 22:06:25.504] [renderer3] [error] [Extension Host] Failed to resolve "Include /etc/ssh/ssh_config.d/*.conf": ENOENT: no such file or directory, open '/etc/ssh/ssh_config.d/*.conf'

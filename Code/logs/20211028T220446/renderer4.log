@@ -1,0 +1,138 @@
+[2021-10-28 22:06:28.895] [renderer4] [info] Starting extension host with pid 8789.
+[2021-10-28 22:06:29.278] [renderer4] [error] [Extension Host] (node:8789) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-28 22:06:52.511] [renderer4] [info] Starting extension host with pid 8982.
+[2021-10-28 22:06:52.832] [renderer4] [error] [Extension Host] (node:8982) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-28 22:46:40.188] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] received socket close event (wasClean: false, code: 1006, reason: ).
+[2021-10-28 22:46:40.190] [renderer4] [error] {"isTrusted":true}
+[2021-10-28 22:46:40.191] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-10-28 22:46:40.191] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] resolving connection...
+[2021-10-28 22:46:40.201] [renderer4] [error] read ECONNRESET: Error: read ECONNRESET
+	at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+[2021-10-28 22:46:40.472] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-10-28 22:46:40.472] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-10-28 22:46:43.269] [renderer4] [info] Enabling inspect port on extension host with pid 8982.
+[2021-10-28 22:46:44.483] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-10-28 22:46:44.485] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] resolving connection...
+[2021-10-28 22:46:44.486] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-10-28 22:46:44.487] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-10-28 22:46:45.473] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] resolving connection...
+[2021-10-28 22:46:45.634] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-10-28 22:46:45.634] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-10-28 22:46:49.485] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] resolving connection...
+[2021-10-28 22:46:49.487] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-10-28 22:46:49.487] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-10-28 22:46:50.636] [renderer4] [info] [remote-connection][Management   ][97475…][reconnect] resolving connection...
+[2021-10-28 22:46:54.550] [renderer4] [info] [remote-connection][ExtensionHost][081de…][reconnect] resolving connection...
+[2021-10-28 22:51:23.414] [renderer4] [error] [remote-connection][Management   ][97475…][reconnect] A RemoteAuthorityResolverError occurred while trying to reconnect. Will give up now! Error:
+[2021-10-28 22:51:23.415] [renderer4] [error] Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._resolveAuthorityAgain (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:7939)
+[2021-10-28 22:51:23.536] [renderer4] [error] [remote-connection][ExtensionHost][081de…][reconnect] A RemoteAuthorityResolverError occurred while trying to reconnect. Will give up now! Error:
+[2021-10-28 22:51:23.537] [renderer4] [error] Error
+    at $r.resolveAuthority (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1570:9196)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Gl._resolveAuthorityAgain (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2943:7939)
+[2021-10-28 22:51:23.593] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.613] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.617] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.629] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.631] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.633] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.634] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.634] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.635] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.636] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.636] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.636] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.636] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.637] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.643] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.645] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/settings.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.646] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/tasks.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.649] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/.vscode/launch.json' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async wi.doReadFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16107)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:16022)
+[2021-10-28 22:51:23.727] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/src/client.rs' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/src/client.rs' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async f.doRead (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:41836)
+    at async f.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:41557)
+    at async Ji.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2354:98223)
+[2021-10-28 22:53:05.346] [renderer4] [error] Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/src/client.rs' (Canceled: Canceled): Error: Unable to read file 'vscode-remote://ssh-remote+192.168.1.194/home/ubuntu/main/multisnake/src/client.rs' (Canceled: Canceled)
+    at wi.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at async f.doRead (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:41836)
+    at async f.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:41557)
+    at async Ji.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2354:98223)

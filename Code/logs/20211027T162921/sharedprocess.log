@@ -1,0 +1,11 @@
+[2021-10-27 16:29:33.755] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-27 16:29:33.758] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211024T175256'
+[2021-10-27 16:29:53.756] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-27 16:29:53.757] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-27 16:30:03.754] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-27 16:30:04.397] [sharedprocess] [info] Installing extension: github.copilot
+[2021-10-27 16:30:06.574] [sharedprocess] [info] Downloaded extension: github.copilot /home/wyli/.config/Code/CachedExtensionVSIXs/github.copilot-1.6.3480
+[2021-10-27 16:30:06.716] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.2fdbf74c-f4b6-4d5e-9cf8-72bdb4ac2010: github.copilot
+[2021-10-27 16:30:06.727] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/github.copilot-1.6.3480
+[2021-10-27 16:30:06.728] [sharedprocess] [info] Extracting completed. github.copilot
+[2021-10-27 16:30:06.731] [sharedprocess] [info] Extension installed successfully: github.copilot

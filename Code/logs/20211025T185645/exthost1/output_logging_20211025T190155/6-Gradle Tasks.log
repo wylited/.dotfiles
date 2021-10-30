@@ -1,0 +1,17 @@
+[info] [gradle-server] Server started, listening on 42131
+[info] Gradle client connected to server
+[info] Cancel builds: Cancel builds requested
+[info] [gradle-server] Restarting gradle server
+[warn] [gradle-server] Gradle server stopped
+[info] [gradle-server] Shutting down gRPC server since JVM is shutting down
+[info] [gradle-server] Server shut down
+[info] [gradle-server] Server started, listening on 45853
+[info] Gradle client connected to server
+[info] Build file changed: /home/wyli/Documents/Oxidized/build.gradle.kts
+[info] [gradle-server] Downloading https://services.gradle.org/distributions/gradle-7.1-bin.zip
+[info] Java Home: /home/wyli/jdk/jdk-17+35
+[info] JVM Args: --add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=HK,-Duser.language=en,-Duser.variant
+[info] Gradle User Home: /home/wyli/.gradle
+[info] Gradle Version: 7.1
+[info] CONFIGURE SUCCESSFUL in 1m 9s
+[info] Found 62 tasks

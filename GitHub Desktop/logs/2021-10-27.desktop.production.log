@@ -1,0 +1,10 @@
+2021-10-27T09:55:47.228Z - info: [ui] [AppStore] loading 2 repositories from store
+2021-10-27T09:55:47.231Z - info: [ui] [AppStore] found account: wylited (wylited)
+2021-10-27T09:55:48.967Z - info: [ui] [BranchPruner] No branches to prune.
+2021-10-27T09:55:49.067Z - info: [ui] launching: 2.8.1-linux1 (Linux 5.13.0-7614-generic)
+2021-10-27T09:55:49.067Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2021-10-27T09:55:50.417Z - info: [ui] Stats reported.
+2021-10-27T09:56:18.727Z - info: [ui] [BranchPruner] No branches to prune.
+2021-10-27T09:56:22.424Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.1s of which 0.0s paused, total 0.1s
+2021-10-27T09:56:36.814Z - info: [ui] No submodules found. Skipping "git submodule status"
+2021-10-27T09:56:51.035Z - info: [ui] Executing checkoutIndex: git checkout-index -f -u -q --stdin -z (took 14.165s)

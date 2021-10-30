@@ -1,0 +1,42 @@
+[2021-10-25 18:56:47.838] [exthost] [info] extension host started
+[2021-10-25 18:56:48.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-10-25 18:56:48.087] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-10-25 18:56:48.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-10-25 18:56:48.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-10-25 18:56:48.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-10-25 18:56:48.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-10-25 18:56:48.150] [exthost] [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: true, activationEvent: '*'
+[2021-10-25 18:56:48.150] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wyli/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.19/js/main
+[2021-10-25 18:56:48.158] [exthost] [info] ExtensionService#_doActivateExtension nowsci.glassit-linux, startup: true, activationEvent: '*'
+[2021-10-25 18:56:48.158] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wyli/.vscode/extensions/nowsci.glassit-linux-1.0.0/extension.js
+[2021-10-25 18:56:48.162] [exthost] [info] ExtensionService#_doActivateExtension shalldie.background, startup: true, activationEvent: '*'
+[2021-10-25 18:56:48.163] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/extension
+[2021-10-25 18:56:48.397] [exthost] [error] Activating extension shalldie.background failed due to an error:
+[2021-10-25 18:56:48.397] [exthost] [error] Error: EACCES: permission denied, open '/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css'
+	at Object.openSync (fs.js:476:3)
+	at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)
+	at Object.writeFileSync (fs.js:1467:35)
+	at Background.saveCssContent (/home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/background.js:107:26)
+	at Background.install (/home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/background.js:186:14)
+	at Background.initialize (/home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/background.js:121:18)
+	at Background.watch (/home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/background.js:229:14)
+	at activate (/home/wyli/.vscode/extensions/shalldie.background-1.1.28/out/extension.js:25:53)
+	at Function._callActivateOptional (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:15028)
+	at Function._callActivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:14704)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12907
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 4)
+	at async Promise.all (index 0)
+[2021-10-25 18:56:48.529] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-10-25 18:56:48.529] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-10-25 18:56:48.573] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-10-25 18:56:48.573] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-10-25 18:56:48.681] [exthost] [info] eager extensions activated
+[2021-10-25 18:56:48.719] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-25 18:56:48.719] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-10-25 18:56:48.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-10-25 18:56:48.730] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-10-25 18:56:48.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-10-25 18:56:48.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-10-25 18:56:53.815] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-10-25 18:56:54.825] [exthost] [info] exiting with code 0

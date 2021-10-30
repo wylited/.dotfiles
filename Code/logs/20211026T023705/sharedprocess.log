@@ -1,0 +1,37 @@
+[2021-10-26 02:37:17.989] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-26 02:37:17.991] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211024T160140'
+[2021-10-26 02:37:38.300] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-26 02:37:38.398] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-26 02:37:38.399] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1635159405791.
+[2021-10-26 02:37:47.991] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-10-26 02:49:52.342] [sharedprocess] [info] Installing extension: rust-lang.rust
+[2021-10-26 02:49:52.940] [sharedprocess] [info] Installing extension: matklad.rust-analyzer
+[2021-10-26 02:49:53.965] [sharedprocess] [info] Downloaded extension: rust-lang.rust /home/wyli/.config/Code/CachedExtensionVSIXs/rust-lang.rust-0.7.8
+[2021-10-26 02:49:54.197] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.24b3af21-a866-4585-8c0f-886c324f970c: rust-lang.rust
+[2021-10-26 02:49:54.209] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/rust-lang.rust-0.7.8
+[2021-10-26 02:49:54.210] [sharedprocess] [info] Extracting completed. rust-lang.rust
+[2021-10-26 02:49:54.211] [sharedprocess] [info] Extension installed successfully: rust-lang.rust
+[2021-10-26 02:49:54.689] [sharedprocess] [info] Downloaded extension: matklad.rust-analyzer /home/wyli/.config/Code/CachedExtensionVSIXs/matklad.rust-analyzer-0.2.792
+[2021-10-26 02:49:54.774] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.6d38d6f8-4e75-4606-a5fa-d1322920d35a: matklad.rust-analyzer
+[2021-10-26 02:49:54.782] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/matklad.rust-analyzer-0.2.792
+[2021-10-26 02:49:54.787] [sharedprocess] [info] Extracting completed. matklad.rust-analyzer
+[2021-10-26 02:49:54.791] [sharedprocess] [info] Extension installed successfully: matklad.rust-analyzer
+[2021-10-26 02:49:57.896] [sharedprocess] [info] Installing extension: swellaby.rust-pack
+[2021-10-26 02:50:00.525] [sharedprocess] [info] Installing extension: bungcip.better-toml
+[2021-10-26 02:50:00.526] [sharedprocess] [info] Installing extension: serayuzgur.crates
+[2021-10-26 02:50:02.157] [sharedprocess] [info] Downloaded extension: bungcip.better-toml /home/wyli/.config/Code/CachedExtensionVSIXs/bungcip.better-toml-0.3.2
+[2021-10-26 02:50:02.343] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.c99fd68e-a9b7-464a-97db-e028f3cc35da: bungcip.better-toml
+[2021-10-26 02:50:02.350] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/bungcip.better-toml-0.3.2
+[2021-10-26 02:50:02.351] [sharedprocess] [info] Extracting completed. bungcip.better-toml
+[2021-10-26 02:50:02.549] [sharedprocess] [info] Downloaded extension: serayuzgur.crates /home/wyli/.config/Code/CachedExtensionVSIXs/serayuzgur.crates-0.5.10
+[2021-10-26 02:50:02.759] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.ffe9a9a5-1ead-4c10-a741-0fc8f41adeac: serayuzgur.crates
+[2021-10-26 02:50:02.767] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/serayuzgur.crates-0.5.10
+[2021-10-26 02:50:02.768] [sharedprocess] [info] Extracting completed. serayuzgur.crates
+[2021-10-26 02:50:04.271] [sharedprocess] [info] Downloaded extension: swellaby.rust-pack /home/wyli/.config/Code/CachedExtensionVSIXs/swellaby.rust-pack-0.2.29
+[2021-10-26 02:50:04.283] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.37c88fe9-7b16-458f-83f4-ac50c1c513c3: swellaby.rust-pack
+[2021-10-26 02:50:04.287] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/swellaby.rust-pack-0.2.29
+[2021-10-26 02:50:04.288] [sharedprocess] [info] Extracting completed. swellaby.rust-pack
+[2021-10-26 02:50:04.292] [sharedprocess] [info] Extension installed successfully: bungcip.better-toml
+[2021-10-26 02:50:04.292] [sharedprocess] [info] Extension installed successfully: serayuzgur.crates
+[2021-10-26 02:50:04.293] [sharedprocess] [info] Extension installed successfully: swellaby.rust-pack
+[2021-10-26 03:10:13.563] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,30 @@
+[2021-10-26 19:51:11.325] [sharedprocess] [info] Deleted from disk vscjava.vscode-maven /home/wyli/.vscode/extensions/vscjava.vscode-maven-0.34.0
+[2021-10-26 19:51:13.039] [sharedprocess] [error] [uncaught exception in sharedProcess]: Could not find pty with id "1": Error: Could not find pty with id "1"
+    at M._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5468)
+    at M.updateTitle (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:2172)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:13:8402)
+    at f.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4940)
+    at f.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4299)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:3552
+    at D.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:8:1712)
+    at process.S (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:6:32863)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[2021-10-26 19:51:13.039] [sharedprocess] [error] [uncaught exception in sharedProcess]: Could not find pty with id "1": Error: Could not find pty with id "1"
+    at M._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5468)
+    at M.updateIcon (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:2232)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:13:8402)
+    at f.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4940)
+    at f.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4299)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:3552
+    at D.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:8:1712)
+    at process.S (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:6:32863)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[2021-10-26 19:51:20.914] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-26 19:51:20.915] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211024T175230'
+[2021-10-26 19:51:40.914] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-26 19:51:40.915] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-26 19:51:50.922] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

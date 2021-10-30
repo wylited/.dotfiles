@@ -1,0 +1,21 @@
+[2021-10-27 17:55:09.245] [renderer1] [info] Starting extension host with pid 14147.
+[2021-10-27 17:55:09.572] [renderer1] [error] [Extension Host] (node:14147) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-27 17:55:25.398] [renderer1] [info] Starting extension host with pid 14363.
+[2021-10-27 17:55:25.662] [renderer1] [error] [Extension Host] (node:14363) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-27 17:55:50.654] [renderer1] [error] Connection got disposed.: Error: Connection got disposed.
+    at Object.dispose (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:901161)
+    at Object.dispose (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:748103)
+    at b.handleConnectionClosed (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:748291)
+    at b.handleConnectionClosed (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:821964)
+    at t (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:746405)
+    at invoke (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:902787)
+    at o.fire (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:903548)
+    at Z (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:890300)
+    at invoke (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:902787)
+    at o.fire (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:903548)
+    at p.fireClose (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:911439)
+    at Socket.<anonymous> (/home/wyli/.vscode/extensions/redhat.java-1.0.0/dist/extension.js:2:913024)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)

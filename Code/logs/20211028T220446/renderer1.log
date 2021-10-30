@@ -1,0 +1,4 @@
+[2021-10-28 22:04:47.693] [renderer1] [info] Starting extension host with pid 8360.
+[2021-10-28 22:04:48.201] [renderer1] [error] [Extension Host] (node:8360) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-28 22:05:55.062] [renderer1] [error] [Extension Host] Failed to resolve "Include /etc/ssh/ssh_config.d/*.conf": ENOENT: no such file or directory, open '/etc/ssh/ssh_config.d/*.conf'

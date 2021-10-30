@@ -1,0 +1,18 @@
+{
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "glassit-linux.opacity": 80,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.home": "/home/wyli/jdk/jdk-17+35",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "tabnine.experimentalAutoImports": true
+}

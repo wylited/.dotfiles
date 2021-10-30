@@ -1,0 +1,12 @@
+[2021-10-26 17:23:15.334] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2021-10-26 17:23:20.594] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /home/wyli/.config/Code/CachedExtensionVSIXs/vscjava.vscode-maven-0.34.1
+[2021-10-26 17:23:20.864] [sharedprocess] [info] Extracted extension to /home/wyli/.vscode/extensions/.4ccf73dc-5129-4c7e-891c-b3d2efcfbfe5: vscjava.vscode-maven
+[2021-10-26 17:23:20.870] [sharedprocess] [info] Renamed to /home/wyli/.vscode/extensions/vscjava.vscode-maven-0.34.1
+[2021-10-26 17:23:20.871] [sharedprocess] [info] Extracting completed. vscjava.vscode-maven
+[2021-10-26 17:23:20.876] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-maven
+[2021-10-26 17:23:21.510] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-10-26 17:23:21.512] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211024T164855'
+[2021-10-26 17:23:41.514] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-10-26 17:23:41.514] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-10-26 17:23:41.517] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1635238185137.
+[2021-10-26 17:23:51.514] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

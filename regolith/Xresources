@@ -1,0 +1,6 @@
+gnome.wallpaper: /home/wyli/Documents/background.png
+i3-wm.workspace.01.name: 1: Web
+i3-wm.workspace.02.name: 2: Social
+i3-wm.workspace.03.name: 3: Code
+i3-wm.workspace.04.name: 4: Terminal
+i3-wm.workspace.05.name: 5: Background

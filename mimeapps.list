@@ -1,0 +1,26 @@
+[Added Associations]
+application/x-shellscript=org.gnome.gedit.desktop;
+text/plain=code.desktop;
+x-scheme-handler/http=userapp-Firefox Developer Edition-911SB1.desktop;
+x-scheme-handler/https=userapp-Firefox Developer Edition-911SB1.desktop;
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-911SB1.desktop;
+text/html=userapp-Firefox Developer Edition-911SB1.desktop;
+application/x-extension-htm=userapp-Firefox Developer Edition-911SB1.desktop;
+application/x-extension-html=userapp-Firefox Developer Edition-911SB1.desktop;
+application/x-extension-shtml=userapp-Firefox Developer Edition-911SB1.desktop;
+application/xhtml+xml=userapp-Firefox Developer Edition-911SB1.desktop;
+application/x-extension-xhtml=userapp-Firefox Developer Edition-911SB1.desktop;
+application/x-extension-xht=userapp-Firefox Developer Edition-911SB1.desktop;
+image/png=org.gnome.eog.desktop;
+
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox Developer Edition-911SB1.desktop
+x-scheme-handler/https=userapp-Firefox Developer Edition-911SB1.desktop
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-911SB1.desktop
+text/html=userapp-Firefox Developer Edition-911SB1.desktop
+application/x-extension-htm=userapp-Firefox Developer Edition-911SB1.desktop
+application/x-extension-html=userapp-Firefox Developer Edition-911SB1.desktop
+application/x-extension-shtml=userapp-Firefox Developer Edition-911SB1.desktop
+application/xhtml+xml=userapp-Firefox Developer Edition-911SB1.desktop
+application/x-extension-xhtml=userapp-Firefox Developer Edition-911SB1.desktop
+application/x-extension-xht=userapp-Firefox Developer Edition-911SB1.desktop

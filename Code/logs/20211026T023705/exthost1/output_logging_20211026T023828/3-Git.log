@@ -1,0 +1,49 @@
+Validating found git in: git
+Using git 2.30.2 from git
+> git rev-parse --git-dir
+Open repository: /media/wyli/Homebase/Users/idhaa/Documents/multisnake
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Opening repository for path='/home/wyli/.config/polybar' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git check-ignore -v -z --stdin
+> git show --textconv :src/main.rs
+> git ls-files --stage -- /media/wyli/Homebase/Users/idhaa/Documents/multisnake/src/main.rs
+> git cat-file -s c2ff80e9a6a30bd2fece58482e0c9af92896cb0a
+Opening repository for path='/home/wyli/.config/polybar' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git show --textconv :src/main.rs
+> git ls-files --stage -- /media/wyli/Homebase/Users/idhaa/Documents/multisnake/src/main.rs
+> git cat-file -s c2ff80e9a6a30bd2fece58482e0c9af92896cb0a
+> git show --textconv :src/server.rs
+> git ls-files --stage -- /media/wyli/Homebase/Users/idhaa/Documents/multisnake/src/server.rs
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :src/client.rs
+> git ls-files --stage -- /media/wyli/Homebase/Users/idhaa/Documents/multisnake/src/client.rs
+> git cat-file -s 6352d849a054ba0cb11264ff9ddb25d265f80bea
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

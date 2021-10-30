@@ -1,0 +1,261 @@
+Validating found git in: git
+Using git 2.30.2 from git
+> git rev-parse --git-dir
+Open repository: /home/wyli/Documents/Oxidized
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/main/java/org/example/Main.java
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/src/main/java/org/example/Main.java
+> git cat-file -s 02dd848ee9b4b3cfa7f85782ba7661fca233ed28
+> git check-ignore -v -z --stdin
+> git show --textconv :src/main/java/org/example/Main.java
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/src/main/java/org/example/Main.java
+> git cat-file -s 02dd848ee9b4b3cfa7f85782ba7661fca233ed28
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/wyli/Documents/Oxidized/src/main/java/org/example/Main.java
+> git show --textconv :gradlew
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew
+> git cat-file -s 744e882ed57263a19bf3a504977da292d009345f
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :gradlew
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew
+> git cat-file -s 744e882ed57263a19bf3a504977da292d009345f
+> git show --textconv :build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/build.gradle.kts
+> git cat-file -s c7dcd70b38f862bfd1f16e6f450a839732470d01
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :native/cbindgen.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/cbindgen.toml
+> git cat-file -s 9080485e389b6869a7d9c641e08260de7e80c3fc
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/cbindgen.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/cbindgen.toml
+> git cat-file -s 9080485e389b6869a7d9c641e08260de7e80c3fc
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/Cargo.toml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :gradlew.bat
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew.bat
+> git cat-file -s 107acd32c4e687021ef32db511e8a206129b88ec
+> git show --textconv :gradlew
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew
+> git cat-file -s 744e882ed57263a19bf3a504977da292d009345f
+> git show --textconv :build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/build.gradle.kts
+> git cat-file -s c7dcd70b38f862bfd1f16e6f450a839732470d01
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git show --textconv :build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/build.gradle.kts
+> git cat-file -s c7dcd70b38f862bfd1f16e6f450a839732470d01
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git show --textconv :build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/build.gradle.kts
+> git cat-file -s c7dcd70b38f862bfd1f16e6f450a839732470d01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :native/build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/build.gradle.kts
+> git cat-file -s 3396e2ad3f5888901972b7afbe0ff268fbed8503
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git show --textconv :settings.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/settings.gradle.kts
+> git cat-file -s ce7beb8d8714a53ec627da2fbb1990147561f48a
+> git show --textconv :gradlew.bat
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew.bat
+> git cat-file -s 107acd32c4e687021ef32db511e8a206129b88ec
+> git show --textconv :gradlew
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradlew
+> git cat-file -s 744e882ed57263a19bf3a504977da292d009345f
+> git show --textconv :README.md
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/README.md
+> git cat-file -s 120c520614d7ad3c76116fa0cc2d241eb2191f91
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git show --textconv :README.md
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/README.md
+> git cat-file -s 120c520614d7ad3c76116fa0cc2d241eb2191f91
+> git check-ignore -v -z --stdin
+> git show --textconv :native/src/lib.rs
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/src/lib.rs
+> git cat-file -s 865fd9f23aa87498c15f9bc1dc765b5a319db708
+> git show --textconv :src/main/java/org/example/Main.java
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/src/main/java/org/example/Main.java
+> git cat-file -s 02dd848ee9b4b3cfa7f85782ba7661fca233ed28
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/wyli/Documents/Oxidized/src/main/java/org/example/Main.java
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/build.gradle.kts
+> git cat-file -s c7dcd70b38f862bfd1f16e6f450a839732470d01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/wyli/Documents/Oxidized/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :native/build.gradle.kts
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/build.gradle.kts
+> git cat-file -s 3396e2ad3f5888901972b7afbe0ff268fbed8503
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/Cargo.lock
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.lock
+> git cat-file -s 71bc14e95bd58b1332108fe842ac9c5704368838
+> git show --textconv :native/Cargo.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/Cargo.toml
+> git cat-file -s 06301751d003f5b6aeb5e997585cd75fedc0d930
+> git show --textconv :native/cbindgen.toml
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/native/cbindgen.toml
+> git cat-file -s 9080485e389b6869a7d9c641e08260de7e80c3fc
+> git show --textconv :gradle.properties
+> git ls-files --stage -- /home/wyli/Documents/Oxidized/gradle.properties
+> git cat-file -s ed0af1a57cf321a6a417eb95a2826cfde72c252d

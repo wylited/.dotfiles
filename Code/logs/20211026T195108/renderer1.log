@@ -1,0 +1,27 @@
+[2021-10-26 19:51:09.980] [renderer1] [info] Starting extension host with pid 38732.
+[2021-10-26 19:51:10.539] [renderer1] [error] [Extension Host] (node:38732) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-10-26 19:51:13.136] [renderer1] [error] Could not find pty with id "1": Error: Could not find pty with id "1"
+    at M._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5468)
+    at M.updateTitle (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:2172)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:13:8402)
+    at f.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4940)
+    at f.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4299)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:3552
+    at D.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:8:1712)
+    at process.S (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:6:32863)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[2021-10-26 19:51:13.137] [renderer1] [error] Could not find pty with id "1": Error: Could not find pty with id "1"
+    at M._throwIfNoPty (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:5468)
+    at M.updateIcon (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:17:2232)
+    at Object.call (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:13:8402)
+    at f.onPromise (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4940)
+    at f.onRawMessage (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:4299)
+    at /usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:12:3552
+    at D.fire (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:8:1712)
+    at process.S (/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js:6:32863)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:903:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)

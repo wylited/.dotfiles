@@ -1,0 +1,14 @@
+[ERROR rust_analyzer::reload] failed to switch workspaces: rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml, cargo 1.56.0 (4ed5d137b 2021-10-04): Failed to run `cargo metadata --manifest-path /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml`: `cargo metadata` exited with an error: error: failed to run `rustc` to learn about target-specific information
+
+Caused by:
+  process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -Clink-arg=-fuse-ld=lld -Zshare-generics=y --target x86_64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=cfg` (exit status: 1)
+  --- stderr
+  error: the option `Z` is only accepted on the nightly compiler
+
+[ERROR rust_analyzer::reload] failed to switch workspaces: rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml, cargo 1.56.0 (4ed5d137b 2021-10-04): Failed to run `cargo metadata --manifest-path /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml`: `cargo metadata` exited with an error: error: failed to run `rustc` to learn about target-specific information
+
+Caused by:
+  process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -Clink-arg=-fuse-ld=lld -Zshare-generics=y --target x86_64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=cfg` (exit status: 1)
+  --- stderr
+  error: the option `Z` is only accepted on the nightly compiler
+

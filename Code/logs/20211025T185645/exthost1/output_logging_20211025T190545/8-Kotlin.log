@@ -1,0 +1,169 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[Info  - 7:05:48 pm] main      Adding script definitions [ScriptTemplateWithArgs]
+[Info  - 7:05:48 pm] main      Kotlin Language Server: Version 1.1.2
+[Info  - 7:05:48 pm] main      Connected to client
+[Info  - 7:05:48 pm] async0    Adding workspace folder Oxidized
+[Info  - 7:05:48 pm] async0    Adding .../native/build.gradle.kts, .../Oxidized/build.gradle.kts, .../Oxidized/settings.gradle.kts under /home/wyli/Documents/Oxidized to source path
+[Info  - 7:05:48 pm] async0    Searching for dependencies and Java sources in workspace root /home/wyli/Documents/Oxidized
+[Info  - 7:05:48 pm] async0    Resolving dependencies for 'native' through Gradle's CLI using tasks [kotlinLSPProjectDeps]...
+Oct 25, 2021 7:05:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+java.util.concurrent.CompletionException: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1606)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at org.javacs.kt.util.UtilsKt.execAndReadStdoutAndStderr(Utils.kt:16)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.findGradleCLIDependencies(GradleClassPathResolver.kt:91)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.readDependenciesViaGradleCLI(GradleClassPathResolver.kt:80)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.access$readDependenciesViaGradleCLI(GradleClassPathResolver.kt:1)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspath(GradleClassPathResolver.kt:20)
+	at org.javacs.kt.classpath.ClassPathResolver$DefaultImpls.getClasspathWithSources(ClassPathResolver.kt:29)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspathWithSources(GradleClassPathResolver.kt:13)
+	at org.javacs.kt.classpath.UnionClassPathResolver.<init>(ClassPathResolver.kt:57)
+	at org.javacs.kt.classpath.ClassPathResolverKt.plus(ClassPathResolver.kt:45)
+	at org.javacs.kt.classpath.ClassPathResolverKt.getJoined(ClassPathResolver.kt:40)
+	at org.javacs.kt.classpath.DefaultClassPathResolverKt.defaultClassPathResolver(DefaultClassPathResolver.kt:11)
+	at org.javacs.kt.CompilerClassPath.refresh(CompilerClassPath.kt:37)
+	at org.javacs.kt.CompilerClassPath.refresh$default(CompilerClassPath.kt:31)
+	at org.javacs.kt.CompilerClassPath.addWorkspaceRoot(CompilerClassPath.kt:98)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:116)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:71)
+	at org.javacs.kt.util.AsyncExecutor.compute$lambda-2(AsyncExecutor.kt:19)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+	... 3 more
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 23 more
+
+[Error - 7:05:48 pm] async0    Internal error: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+[Error - 7:05:48 pm] java.util.concurrent.CompletionException: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+[Error - 7:05:48 pm] 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+[Error - 7:05:48 pm] 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+[Error - 7:05:48 pm] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1606)
+[Error - 7:05:48 pm] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[Error - 7:05:48 pm] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[Error - 7:05:48 pm] 	at java.lang.Thread.run(Thread.java:748)
+[Error - 7:05:48 pm] Caused by: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+[Error - 7:05:48 pm] 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+[Error - 7:05:48 pm] 	at java.lang.Runtime.exec(Runtime.java:621)
+[Error - 7:05:48 pm] 	at java.lang.Runtime.exec(Runtime.java:451)
+[Error - 7:05:48 pm] 	at org.javacs.kt.util.UtilsKt.execAndReadStdoutAndStderr(Utils.kt:16)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.GradleClassPathResolverKt.findGradleCLIDependencies(GradleClassPathResolver.kt:91)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.GradleClassPathResolverKt.readDependenciesViaGradleCLI(GradleClassPathResolver.kt:80)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.GradleClassPathResolverKt.access$readDependenciesViaGradleCLI(GradleClassPathResolver.kt:1)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspath(GradleClassPathResolver.kt:20)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.ClassPathResolver$DefaultImpls.getClasspathWithSources(ClassPathResolver.kt:29)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspathWithSources(GradleClassPathResolver.kt:13)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.UnionClassPathResolver.<init>(ClassPathResolver.kt:57)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.ClassPathResolverKt.plus(ClassPathResolver.kt:45)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.ClassPathResolverKt.getJoined(ClassPathResolver.kt:40)
+[Error - 7:05:48 pm] 	at org.javacs.kt.classpath.DefaultClassPathResolverKt.defaultClassPathResolver(DefaultClassPathResolver.kt:11)
+[Error - 7:05:48 pm] 	at org.javacs.kt.CompilerClassPath.refresh(CompilerClassPath.kt:37)
+[Error - 7:05:48 pm] 	at org.javacs.kt.CompilerClassPath.refresh$default(CompilerClassPath.kt:31)
+[Error - 7:05:48 pm] 	at org.javacs.kt.CompilerClassPath.addWorkspaceRoot(CompilerClassPath.kt:98)
+[Error - 7:05:48 pm] 	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:116)
+[Error - 7:05:48 pm] 	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:71)
+[Error - 7:05:48 pm] 	at org.javacs.kt.util.AsyncExecutor.compute$lambda-2(AsyncExecutor.kt:19)
+[Error - 7:05:48 pm] 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+[Error - 7:05:48 pm] 	... 3 more
+[Error - 7:05:48 pm] Caused by: java.io.IOException: error=13, Permission denied
+[Error - 7:05:48 pm] 	at java.lang.UNIXProcess.forkAndExec(Native Method)
+[Error - 7:05:48 pm] 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+[Error - 7:05:48 pm] 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+[Error - 7:05:48 pm] 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+[Error - 7:05:48 pm] 	... 23 more
+[Error - 7:05:48 pm] Server initialization failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1606)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at org.javacs.kt.util.UtilsKt.execAndReadStdoutAndStderr(Utils.kt:16)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.findGradleCLIDependencies(GradleClassPathResolver.kt:91)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.readDependenciesViaGradleCLI(GradleClassPathResolver.kt:80)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.access$readDependenciesViaGradleCLI(GradleClassPathResolver.kt:1)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspath(GradleClassPathResolver.kt:20)
+	at org.javacs.kt.classpath.ClassPathResolver$DefaultImpls.getClasspathWithSources(ClassPathResolver.kt:29)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspathWithSources(GradleClassPathResolver.kt:13)
+	at org.javacs.kt.classpath.UnionClassPathResolver.<init>(ClassPathResolver.kt:57)
+	at org.javacs.kt.classpath.ClassPathResolverKt.plus(ClassPathResolver.kt:45)
+	at org.javacs.kt.classpath.ClassPathResolverKt.getJoined(ClassPathResolver.kt:40)
+	at org.javacs.kt.classpath.DefaultClassPathResolverKt.defaultClassPathResolver(DefaultClassPathResolver.kt:11)
+	at org.javacs.kt.CompilerClassPath.refresh(CompilerClassPath.kt:37)
+	at org.javacs.kt.CompilerClassPath.refresh$default(CompilerClassPath.kt:31)
+	at org.javacs.kt.CompilerClassPath.addWorkspaceRoot(CompilerClassPath.kt:98)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:116)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:71)
+	at org.javacs.kt.util.AsyncExecutor.compute$lambda-2(AsyncExecutor.kt:19)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+	... 3 more
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 23 more
+
+[Error - 7:05:48 pm] Starting client failed
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1606)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Cannot run program "/home/wyli/Documents/Oxidized/gradlew" (in directory "/home/wyli/Documents/Oxidized/native"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at org.javacs.kt.util.UtilsKt.execAndReadStdoutAndStderr(Utils.kt:16)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.findGradleCLIDependencies(GradleClassPathResolver.kt:91)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.readDependenciesViaGradleCLI(GradleClassPathResolver.kt:80)
+	at org.javacs.kt.classpath.GradleClassPathResolverKt.access$readDependenciesViaGradleCLI(GradleClassPathResolver.kt:1)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspath(GradleClassPathResolver.kt:20)
+	at org.javacs.kt.classpath.ClassPathResolver$DefaultImpls.getClasspathWithSources(ClassPathResolver.kt:29)
+	at org.javacs.kt.classpath.GradleClassPathResolver.getClasspathWithSources(GradleClassPathResolver.kt:13)
+	at org.javacs.kt.classpath.UnionClassPathResolver.<init>(ClassPathResolver.kt:57)
+	at org.javacs.kt.classpath.ClassPathResolverKt.plus(ClassPathResolver.kt:45)
+	at org.javacs.kt.classpath.ClassPathResolverKt.getJoined(ClassPathResolver.kt:40)
+	at org.javacs.kt.classpath.DefaultClassPathResolverKt.defaultClassPathResolver(DefaultClassPathResolver.kt:11)
+	at org.javacs.kt.CompilerClassPath.refresh(CompilerClassPath.kt:37)
+	at org.javacs.kt.CompilerClassPath.refresh$default(CompilerClassPath.kt:31)
+	at org.javacs.kt.CompilerClassPath.addWorkspaceRoot(CompilerClassPath.kt:98)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:116)
+	at org.javacs.kt.KotlinLanguageServer$initialize$1.invoke(KotlinLanguageServer.kt:71)
+	at org.javacs.kt.util.AsyncExecutor.compute$lambda-2(AsyncExecutor.kt:19)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+	... 3 more
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 23 more
+
+[Info  - 7:05:48 pm] client    Awaiting async termination...
+[Info  - 7:05:48 pm] client    Awaiting debouncer termination...
+[Info  - 7:05:48 pm] client    Awaiting async termination...

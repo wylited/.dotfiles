@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=idhaaboi@gmail.com
+Enabled=true
+Parent=415b9b30a6122463dbd83327c2a6071b8e41276b
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=4dee5d6a944d5d600707b3dfbda7df3cb169eee3
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=idhaaboi@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

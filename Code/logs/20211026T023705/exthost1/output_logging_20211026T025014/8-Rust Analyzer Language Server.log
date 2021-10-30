@@ -1,0 +1,68 @@
+[ERROR rust_analyzer::reload] failed to switch workspaces: rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml, cargo 1.56.0 (4ed5d137b 2021-10-04): Failed to run `cargo metadata --manifest-path /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml`: `cargo metadata` exited with an error: error: failed to run `rustc` to learn about target-specific information
+
+Caused by:
+  process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -Clink-arg=-fuse-ld=lld -Zshare-generics=y --target x86_64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=cfg` (exit status: 1)
+  --- stderr
+  error: the option `Z` is only accepted on the nightly compiler
+
+[ERROR rust_analyzer::reload] failed to switch workspaces: rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml, cargo 1.56.0 (4ed5d137b 2021-10-04): Failed to run `cargo metadata --manifest-path /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml`: `cargo metadata` exited with an error: error: failed to run `rustc` to learn about target-specific information
+
+Caused by:
+  process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -Clink-arg=-fuse-ld=lld -Zshare-generics=y --target x86_64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=cfg` (exit status: 1)
+  --- stderr
+  error: the option `Z` is only accepted on the nightly compiler
+
+[ERROR rust_analyzer::reload] failed to switch workspaces: rust-analyzer failed to load workspace: Failed to read Cargo metadata from Cargo.toml file /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml, cargo 1.56.0 (4ed5d137b 2021-10-04): Failed to run `cargo metadata --manifest-path /media/wyli/Homebase/Users/idhaa/Documents/multisnake/Cargo.toml`: `cargo metadata` exited with an error: error: failed to run `rustc` to learn about target-specific information
+
+Caused by:
+  process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -Clink-arg=-fuse-ld=lld -Zshare-generics=y --target x86_64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=cfg` (exit status: 1)
+  --- stderr
+  error: the option `Z` is only accepted on the nightly compiler
+
+[ERROR rust_analyzer::reload] failed to switch build data: rust-analyzer failed to run build scripts:
+error: failed to run custom build command for `libudev-sys v0.1.4`
+
+Caused by:
+  process didn't exit successfully: `/media/wyli/Homebase/Users/idhaa/Documents/multisnake/target/debug/build/libudev-sys-9eacf24f66a8fa12/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=LIBUDEV_STATIC
+  cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+  thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: "`\"pkg-config\" \"--libs\" \"--cflags\" \"libudev\"` did not exit successfully: exit status: 1\n--- stderr\nPackage libudev was not found in the pkg-config search path.\nPerhaps you should add the directory containing `libudev.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'libudev' found\n"', /home/wyli/.cargo/registry/src/github.com-1ecc6299db9ec823/libudev-sys-0.1.4/build.rs:38:41
+  stack backtrace:
+     0: rust_begin_unwind
+               at /rustc/09c42c45858d5f3aedfa670698275303a3d19afa/library/std/src/panicking.rs:517:5
+     1: core::panicking::panic_fmt
+               at /rustc/09c42c45858d5f3aedfa670698275303a3d19afa/library/core/src/panicking.rs:101:14
+     2: core::result::unwrap_failed
+               at /rustc/09c42c45858d5f3aedfa670698275303a3d19afa/library/core/src/result.rs:1617:5
+     3: core::result::Result<T,E>::unwrap
+               at /rustc/09c42c45858d5f3aedfa670698275303a3d19afa/library/core/src/result.rs:1299:23
+     4: build_script_build::main
+               at ./build.rs:38:5
+     5: core::ops::function::FnOnce::call_once
+               at /rustc/09c42c45858d5f3aedfa670698275303a3d19afa/library/core/src/ops/function.rs:227:5
+  note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+error: build failed
+
+

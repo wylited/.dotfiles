@@ -1,0 +1,251 @@
+[colors]
+background = #0014171d
+foreground = #676b73 
+;foreground = ${xrdb:foreground}
+
+dark-light = #272A2B
+active-light = #313435
+
+[bar/botbar]
+tray-position = right
+tray-background = #0014171d
+monitor = 
+width =  100%
+height = 30
+padding-left = 1
+padding-right = 1
+;offset-x = 0.5%
+;offset-y = 0.5%
+;radius = 16
+
+background = #0014171d
+foreground = ${colors.foreground}
+bottom = true
+border-top-size = 6
+border-bottom-size = 6
+border-radius = 16
+border-top-color = #014171d
+border-bottom-color = #0014171d
+
+line-size = 1
+wm-restack = i3
+
+modules-left = round-left i3 round-right empty-space
+modules-right = round-left cpu memory round-right empty-space round-left pulseaudio battery round-right
+font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
+font-1 = JetBrainsMono Nerd Font:size= 20;5
+font-2 = Material Design Icons:style=Bold:size=9;3
+font-3 = unifont:fontformat=truetype:size=9;3
+
+[bar/topbar]
+tray-position = right
+tray-background = #0014171d
+monitor = 
+width =  100%
+height = 30
+padding-left = 1
+padding-right = 1
+;offset-x = 0.5%
+;offset-y = 0.5%
+;radius = 16
+
+background = #0014171d
+foreground = ${colors.foreground}
+bottom = false
+border-top-size = 6
+border-bottom-size = 6/
+border-radius = 16
+border-top-color = #014171d
+border-bottom-color = #0014171d
+
+line-size = 1
+wm-restack = i3
+
+modules-left = round-left title round-right
+modules-right = space round-left time round-right emtpy-space
+font-0 = JetBrainsMono Nerd Font:style=Bold:pixelsize=9;3
+font-1 = JetBrainsMono Nerd Font:size= 20;5
+font-2 = Material Design Icons:style=Bold:size=9;3
+font-3 = unifont:fontformat=truetype:size=9;3
+
+[module/empty-space]
+type = custom/text
+content = " "
+
+[module/space]
+type = custom/text
+content = "      "
+
+[module/round-left]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = #2a2e36
+
+[module/round-right]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = #2a2e36
+
+[module/roundd-left]
+type = custom/text
+content = %{T3}%{`T-}
+content-foreground = #2a2e36 
+
+[module/roundd-right]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = #2a2e36
+
+[module/time]
+type = internal/date
+interval = 60
+
+format = <label>
+format-prefix = " " 
+format-prefix-foreground = #D8DEE9
+format-background = #2a2e36
+format-foreground = #FFFFFF
+
+;date = 󰥔 %H:%M%{F-}
+date = "%a %d %B, %H:%M "
+;time-alt = 󰃭 %a, %b %d%{F-}
+
+label = %date%%time%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " ﬙ " 
+format-prefix-foreground = #D8DEE9
+format-background = #2a2e36
+format-foreground = #FFFFFF
+format = <label>
+label = %mb_used%
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 3.0
+format-connected =  <label-connected>
+label-connected = "󰤪  " 
+label-connected-foreground = #A3BE8C 
+
+[module/battery]
+type = internal/battery
+
+full-at = 77
+battery = BAT0
+adapter = AC
+poll-interval = 5
+time-format = %H:%M
+
+format-charging = <animation-charging>  <label-charging>
+format-charging-background = #2a2e36
+format-charging-foreground = #D8DEE9
+format-charging-padding = 0
+format-discharging = <ramp-capacity>  <label-discharging>
+format-discharging-background = #2a2e36
+format-discharging-foreground = #D8DEE9
+format-discharging-padding = 0
+format-full = <label-full>
+format-full-prefix = "   "
+format-full-background = #2a2e36
+format-full-foreground = #FFFFFF
+format-full-padding = 0
+label-charging = %percentage%%, charging
+label-discharging = %percentage%%, idle
+label-full = " Full "
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+
+animation-charging-framerate = 600
+
+[module/cpu]
+type = internal/cpu
+interval = 2.0
+format-prefix ="  " 
+format =  <label>
+format-prefix-foreground = #FFFFFF
+label = "%percentage%% "
+label-padding = 0
+format-background = #2a2e36
+format-foreground = #FFFFFF
+
+[module/i3]
+type = internal/i3
+
+pin-workspaces = false
+strip-wsnumbers = false
+index-sort = true
+enable-click = true
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+
+; Use fuzzy (partial) matching on labels when assigning 
+; icons to workspaces
+; Example: code;♚ will apply the icon to all workspaces 
+; containing 'code' in the label
+; Default: false
+fuzzy-match = true
+
+ws-icon-0 = Web;
+ws-icon-1 = Social;ﭮ
+ws-icon-2 = Code; 
+ws-icon-3 = Terminal;
+ws-icon-4 = Background;
+ws-icon-default = def 
+
+format = <label-state>
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+;   %output%
+; Default: %icon% %name%
+label-focused-foreground = #ffffff
+label-focused-background = #dd2a2e36
+label-focused-padding = 1
+
+label-unfocused = %icon%
+label-unfocused-foreground = #ffffff
+label-unfocused-background = #2a2e36
+label-unfocused-padding = 1
+
+label-visible = %icon%
+label-visible-foreground = #ffffff
+label-visible-background = #2a2e36
+label-visible-padding = 1
+
+label-urgent = %icon%
+label-urgent-foreground = #ffffff
+label-urgent-background = #2a2e36
+label-urgent-padding = 1
+
+; Separator in between workspaces
+label-separator = |
+label-separator-padding = 1
+label-separator-foreground = #ffffff
+label-separator-background = #2a2e36
+
+[module/title]
+type = internal/xwindow
+format = <label>
+format-background = #2a2e36
+format-foreground = #FFFFFF
+format-padding = 0
+label = "%title%"
+label-maxlen = 30
+label-empty = "Desktop"
+label-empty-foreground = #FFFFFF
