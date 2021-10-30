@@ -24,3 +24,5 @@
 2021-10-30T13:11:12.142Z - info: [ui] [Timing] Action 'create commit' for 'wylited/.dotfiles' took 21.592s
 2021-10-30T13:11:24.811Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: .dotfiles - wylited (has token)
 2021-10-30T13:12:42.137Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.8s of which 0.0s paused, total 0.8s
+2021-10-30T13:12:47.891Z - info: [ui] Executing createCommit: git commit -F - (took 1.020s)
+2021-10-30T13:12:48.161Z - info: [ui] [Timing] Action 'create commit' for 'wylited/.dotfiles' took 1.519s
