@@ -1,17 +1,22 @@
-2021-10-30T12:57:30.059Z - info: [ui] [AppStore] loading 2 repositories from store
-2021-10-30T12:57:30.061Z - info: [ui] [AppStore] found account: wylited (wylited)
-2021-10-30T12:57:30.261Z - info: [ui] launching: 2.8.1-linux1 (Linux 5.13.0-7620-generic)
-2021-10-30T12:57:30.262Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
-2021-10-30T12:57:31.658Z - info: [ui] Stats reported.
-2021-10-30T12:58:07.650Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
-2021-10-30T12:58:27.585Z - info: [ui] [AppStore] adding repository at /home/wyli/.config/.dotfiles to store
-2021-10-30T12:58:38.181Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 10.367s)
-2021-10-30T12:58:53.313Z - info: [ui] Executing createCommit: git commit -F - (took 15.116s)
-2021-10-30T12:59:46.287Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main --set-upstream --progress (took 41.274s)
-2021-10-30T12:59:48.181Z - info: [ui] [BranchPruner] No branches to prune.
-2021-10-30T13:04:43.978Z - info: [ui] [AppStore] loading 3 repositories from store
-2021-10-30T13:04:43.980Z - info: [ui] [AppStore] found account: wylited (wylited)
-2021-10-30T13:04:44.106Z - info: [ui] launching: 2.8.1-linux1 (Linux 5.13.0-7620-generic)
-2021-10-30T13:04:44.108Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
-2021-10-30T13:05:02.149Z - info: [ui] [AppStore] adding repository at /home/wyli/.config to store
-2021-10-30T13:05:02.843Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2021-10-30T13:09:48.068Z - info: [ui] [AppStore] loading 0 repositories from store
+2021-10-30T13:09:48.084Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2021-10-30T13:09:48.088Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2021-10-30T13:09:48.198Z - info: [ui] launching: 2.8.1-linux1 (Linux 5.13.0-7620-generic)
+2021-10-30T13:09:48.198Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2021-10-30T13:09:48.254Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2021-10-30T13:09:49.095Z - info: [ui] Opt in reported.
+2021-10-30T13:09:51.029Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2021-10-30T13:09:51.032Z - info: [ui] [SignInStore] initializing OAuth flow
+2021-10-30T13:09:51.039Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=930a7dbf-6c4a-4b3d-96ae-0491afa578c9
+2021-10-30T13:09:51.043Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2021-10-30T13:09:52.267Z - info: [main] Received possible protocol arguments: 2
+2021-10-30T13:09:52.267Z - info: [main] Processing protocol url
+2021-10-30T13:09:52.267Z - info: [ui] [Dispatcher] requesting authenticated user
+2021-10-30T13:09:52.274Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2021-10-30T13:09:53.599Z - info: [ui] [SignInStore] account resolved
+2021-10-30T13:09:53.600Z - info: [ui] [AppStore] adding account wylited (wylited) to store
+2021-10-30T13:09:53.608Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2021-10-30T13:09:53.703Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2021-10-30T13:09:54.490Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2021-10-30T13:10:28.000Z - info: [ui] [AppStore] adding repository at /home/wyli/.config to store
+2021-10-30T13:10:28.758Z - info: [ui] [BranchPruner] No branches to prune.
