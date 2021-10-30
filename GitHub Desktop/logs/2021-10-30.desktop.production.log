@@ -20,3 +20,7 @@
 2021-10-30T13:09:54.490Z - info: [ui] [Welcome] no sign in step found. ignoring...
 2021-10-30T13:10:28.000Z - info: [ui] [AppStore] adding repository at /home/wyli/.config to store
 2021-10-30T13:10:28.758Z - info: [ui] [BranchPruner] No branches to prune.
+2021-10-30T13:11:11.731Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 21.150s)
+2021-10-30T13:11:12.142Z - info: [ui] [Timing] Action 'create commit' for 'wylited/.dotfiles' took 21.592s
+2021-10-30T13:11:24.811Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: .dotfiles - wylited (has token)
+2021-10-30T13:12:42.137Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.8s of which 0.0s paused, total 0.8s
